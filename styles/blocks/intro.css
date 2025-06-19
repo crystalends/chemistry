@@ -1,7 +1,7 @@
 .intro {
   position: relative;
   display: flex;
-  min-height: 1080px;
+  height: 1080px;
   padding-top: 647px;
 }
 
