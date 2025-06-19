@@ -1,0 +1,32 @@
+.catalog-nav {
+  font-family: sans-serif;
+}
+
+.catalog-nav__title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.catalog-nav__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.catalog-nav__item {
+  border-bottom: 1px solid #ccc;
+}
+
+.catalog-nav__link {
+  display: block;
+  padding: 20px 0;
+  color: #000;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.catalog-nav__link--active {
+  color: #215b74;
+  text-decoration: underline;
+}

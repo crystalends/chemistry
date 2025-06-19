@@ -1,7 +1,4 @@
 .articles {
-  width: 100%;
-  position: relative;
-  top: 70px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
   gap: 20px;

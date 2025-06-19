@@ -1,3 +1,9 @@
+.articles-wrapper {
+  width: 100%;
+  position: relative;
+  top: 70px;
+}
+
 .header-wrapper {
   z-index: 50;
   position: absolute;

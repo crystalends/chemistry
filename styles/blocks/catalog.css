@@ -1,0 +1,44 @@
+.catalog {
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.catalog__side-bar {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.catalog__articles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.catalog__section-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.catalog__title {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.catalog__main {
+  width: 100%;
+}
+
+@media (max-width: 839px) {
+  .catalog {
+    flex-direction: column;
+  }
+
+  .catalog__side-bar {
+    max-width: 100%;
+  }
+}
