@@ -1,8 +1,10 @@
 .intro {
   position: relative;
   display: flex;
-  height: 1080px;
-  padding-top: 647px;
+  align-items: flex-end;
+  padding-top: 200px;
+  padding-bottom: 430px;
+  min-height: 100vh;
 }
 
 .intro__bg {
@@ -27,7 +29,7 @@
 
 .intro__title {
   color: white;
-  font-size: 88px;
+  font-size: 93px;
   font-weight: 600px;
   line-height: 1.2;
   max-width: 707px;
@@ -40,13 +42,7 @@
   max-width: 585px;
 }
 
-@media (max-width: 1400px) {
-  .intro {
-    padding-top: 200px;
-  }
-}
-
-@media (max-width: 629px) {
+@media (max-width: 700px) {
   .intro__title {
     font-size: 48px;
   }

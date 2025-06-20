@@ -26,8 +26,8 @@
       <div class="container">
         <header class="header">
           <div class="logo">
-            <a href="/home.html"
-              ><a href="/home.html"
+            <a
+              ><a
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="265"
@@ -120,22 +120,29 @@
                   /></svg></a
             ></a>
           </div>
-          <button class="header__search" aria-label="Поиск">
-            <svg
-              width="28"
-              height="29"
-              viewBox="0 0 28 29"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M19.3199 21.1966C17.2749 22.9228 14.6325 23.9628 11.75 23.9628C5.26492 23.9628 0 18.6979 0 12.2128C0 5.72764 5.26492 0.462685 11.75 0.462685C18.2351 0.462685 23.5 5.72764 23.5 12.2128C23.5 15.0953 22.46 17.7379 20.7338 19.7827L27.7075 26.7552C28.0975 27.1452 28.0975 27.7802 27.7075 28.1702C27.3175 28.5602 26.6825 28.5602 26.2925 28.1702L19.3199 21.1966ZM19.1386 18.5704C20.6099 16.8629 21.4998 14.6404 21.4998 12.2129C21.4998 6.8318 17.1312 2.46284 11.7498 2.46284C6.36843 2.46284 1.99982 6.83149 1.99982 12.2129C1.99982 17.5944 6.36843 21.963 11.7498 21.963C14.1773 21.963 16.3997 21.073 18.1072 19.6018C18.4772 19.2855 18.8224 18.9404 19.1386 18.5704Z"
-                fill="white"
-              />
-            </svg>
-          </button>
+          <div class="header__search-wrapper">
+            <input
+              type="text"
+              placeholder="Найти статью"
+              class="header__search-input"
+            />
+            <button class="header__search" aria-label="Поиск">
+              <svg
+                width="28"
+                height="29"
+                viewBox="0 0 28 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.3199 21.1966C17.2749 22.9228 14.6325 23.9628 11.75 23.9628C5.26492 23.9628 0 18.6979 0 12.2128C0 5.72764 5.26492 0.462685 11.75 0.462685C18.2351 0.462685 23.5 5.72764 23.5 12.2128C23.5 15.0953 22.46 17.7379 20.7338 19.7827L27.7075 26.7552C28.0975 27.1452 28.0975 27.7802 27.7075 28.1702C27.3175 28.5602 26.6825 28.5602 26.2925 28.1702L19.3199 21.1966ZM19.1386 18.5704C20.6099 16.8629 21.4998 14.6404 21.4998 12.2129C21.4998 6.8318 17.1312 2.46284 11.7498 2.46284C6.36843 2.46284 1.99982 6.83149 1.99982 12.2129C1.99982 17.5944 6.36843 21.963 11.7498 21.963C14.1773 21.963 16.3997 21.073 18.1072 19.6018C18.4772 19.2855 18.8224 18.9404 19.1386 18.5704Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
         </header>
       </div>
     </div>
@@ -149,86 +156,96 @@
             готовые решения и полезные шпаргалки помогут учиться быстрее и сдать
             экзамены без стресса.
           </p>
-          <div class="articles-wrapper">
-            <div class="articles">
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
-                <div class="article-preview__content">
-                  <h4 class="article-preview__title">
-                    Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
-                    общего? Чудо-полимер полиэтилентерефталат
-                  </h4>
-                  <p class="article-preview__description">
-                    Вот казалось бы, что может быть общего у модной флисовой
-                    куртки и обычной пластиковой бутылки? Вы не поверите – они
-                    сделаны из одного и того же полимера! Мало того, б/у
-                    пластиковые бутылки можно переработать вот в такую вот
-                    куртку!
-                  </p>
-                </div>
-              </div>
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
-                <div class="article-preview__content">
-                  <h4 class="article-preview__title">
-                    Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
-                    общего? Чудо-полимер полиэтилентерефталат
-                  </h4>
-                  <p class="article-preview__description">
-                    Вот казалось бы, что может быть общего у модной флисовой
-                    куртки и обычной пластиковой бутылки? Вы не поверите – они
-                    сделаны из одного и того же полимера! Мало того, б/у
-                    пластиковые бутылки можно переработать вот в такую вот
-                    куртку!
-                  </p>
-                </div>
-              </div>
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
-                <div class="article-preview__content">
-                  <h4 class="article-preview__title">
-                    Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
-                    общего? Чудо-полимер полиэтилентерефталат
-                  </h4>
-                  <p class="article-preview__description">
-                    Вот казалось бы, что может быть общего у модной флисовой
-                    куртки и обычной пластиковой бутылки? Вы не поверите – они
-                    сделаны из одного и того же полимера! Мало того, б/у
-                    пластиковые бутылки можно переработать вот в такую вот
-                    куртку!
-                  </p>
-                </div>
-              </div>
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
-                <div class="article-preview__content">
-                  <h4 class="article-preview__title">
-                    Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
-                    общего? Чудо-полимер полиэтилентерефталат
-                  </h4>
-                  <p class="article-preview__description">
-                    Вот казалось бы, что может быть общего у модной флисовой
-                    куртки и обычной пластиковой бутылки? Вы не поверите – они
-                    сделаны из одного и того же полимера! Мало того, б/у
-                    пластиковые бутылки можно переработать вот в такую вот
-                    куртку!
-                  </p>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="articles">
+          <a class="article-preview">
+            <div class="article-preview__image-wrapper">
+              <div class="article-preview__image-wrapper">
+                <div class="article-preview__image-wrapper">
+                  <img
+                    src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                    class="article-preview__image"
+                  />
                 </div>
               </div>
             </div>
-          </div>
+            <div class="article-preview__content">
+              <h4 class="article-preview__title">
+                Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
+                общего? Чудо-полимер полиэтилентерефталат
+              </h4>
+              <p class="article-preview__description">
+                Вот казалось бы, что может быть общего у модной флисовой куртки
+                и обычной пластиковой бутылки? Вы не поверите – они сделаны из
+                одного и того же полимера! Мало того, б/у пластиковые бутылки
+                можно переработать вот в такую вот куртку!
+              </p>
+            </div>
+          </a>
+          <a class="article-preview">
+            <div class="article-preview__image-wrapper">
+              <img
+                src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                class="article-preview__image"
+              />
+            </div>
+            <div class="article-preview__content">
+              <h4 class="article-preview__title">
+                Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
+                общего? Чудо-полимер полиэтилентерефталат
+              </h4>
+              <p class="article-preview__description">
+                Вот казалось бы, что может быть общего у модной флисовой куртки
+                и обычной пластиковой бутылки? Вы не поверите – они сделаны из
+                одного и того же полимера! Мало того, б/у пластиковые бутылки
+                можно переработать вот в такую вот куртку!
+              </p>
+            </div>
+          </a>
+          <a class="article-preview">
+            <div class="article-preview__image-wrapper">
+              <img
+                src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                class="article-preview__image"
+              />
+            </div>
+            <div class="article-preview__content">
+              <h4 class="article-preview__title">
+                Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
+                общего? Чудо-полимер полиэтилентерефталат
+              </h4>
+              <p class="article-preview__description">
+                Вот казалось бы, что может быть общего у модной флисовой куртки
+                и обычной пластиковой бутылки? Вы не поверите – они сделаны из
+                одного и того же полимера! Мало того, б/у пластиковые бутылки
+                можно переработать вот в такую вот куртку!
+              </p>
+            </div>
+          </a>
+          <a class="article-preview">
+            <div class="article-preview__image-wrapper">
+              <img
+                src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                class="article-preview__image"
+              />
+            </div>
+            <div class="article-preview__content">
+              <h4 class="article-preview__title">
+                Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
+                общего? Чудо-полимер полиэтилентерефталат
+              </h4>
+              <p class="article-preview__description">
+                Вот казалось бы, что может быть общего у модной флисовой куртки
+                и обычной пластиковой бутылки? Вы не поверите – они сделаны из
+                одного и того же полимера! Мало того, б/у пластиковые бутылки
+                можно переработать вот в такую вот куртку!
+              </p>
+            </div>
+          </a>
         </div>
         <section class="catalog">
           <div class="catalog__side-bar">
@@ -269,11 +286,13 @@
           <div class="catalog__articles">
             <h3 class="catalog__title">Каталог статьей</h3>
             <div class="articles">
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
+              <a class="article-preview">
+                <div class="article-preview__image-wrapper">
+                  <img
+                    src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                    class="article-preview__image"
+                  />
+                </div>
                 <div class="article-preview__content">
                   <h4 class="article-preview__title">
                     Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
@@ -287,12 +306,14 @@
                     куртку!
                   </p>
                 </div>
-              </div>
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
+              </a>
+              <a class="article-preview">
+                <div class="article-preview__image-wrapper">
+                  <img
+                    src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                    class="article-preview__image"
+                  />
+                </div>
                 <div class="article-preview__content">
                   <h4 class="article-preview__title">
                     Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
@@ -306,12 +327,14 @@
                     куртку!
                   </p>
                 </div>
-              </div>
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
+              </a>
+              <a class="article-preview">
+                <div class="article-preview__image-wrapper">
+                  <img
+                    src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                    class="article-preview__image"
+                  />
+                </div>
                 <div class="article-preview__content">
                   <h4 class="article-preview__title">
                     Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
@@ -325,12 +348,14 @@
                     куртку!
                   </p>
                 </div>
-              </div>
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
+              </a>
+              <a class="article-preview">
+                <div class="article-preview__image-wrapper">
+                  <img
+                    src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                    class="article-preview__image"
+                  />
+                </div>
                 <div class="article-preview__content">
                   <h4 class="article-preview__title">
                     Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
@@ -344,12 +369,14 @@
                     куртку!
                   </p>
                 </div>
-              </div>
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
+              </a>
+              <a class="article-preview">
+                <div class="article-preview__image-wrapper">
+                  <img
+                    src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                    class="article-preview__image"
+                  />
+                </div>
                 <div class="article-preview__content">
                   <h4 class="article-preview__title">
                     Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
@@ -363,12 +390,14 @@
                     куртку!
                   </p>
                 </div>
-              </div>
-              <div class="article-preview">
-                <img
-                  src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
-                  class="article-preview__image"
-                />
+              </a>
+              <a class="article-preview">
+                <div class="article-preview__image-wrapper">
+                  <img
+                    src="/public/d7c34a64466a1383e100ab4054096c1f55d76c45.png"
+                    class="article-preview__image"
+                  />
+                </div>
                 <div class="article-preview__content">
                   <h4 class="article-preview__title">
                     Ткань полиэфир (полиэстер) и пластиковые бутылки. Что у них
@@ -382,7 +411,7 @@
                     куртку!
                   </p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </section>
@@ -450,6 +479,6 @@
           </div>
         </footer>
       </div>
-    </section>
+    </div>
   </body>
 </html>
