@@ -45,3 +45,13 @@
     padding-top: 200px;
   }
 }
+
+@media (max-width: 629px) {
+  .intro__title {
+    font-size: 48px;
+  }
+
+  .intro__text {
+    font-size: 20px;
+  }
+}
