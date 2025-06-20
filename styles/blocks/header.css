@@ -14,7 +14,3 @@
   outline: none;
   border: none;
 }
-
-.header__search:hover {
-  cursor: pointer;
-}
